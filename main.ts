@@ -53,3 +53,65 @@
 
 //**********************************complete day second************************************** */
 
+
+//********************************** day 3rd**************************************** */
+                          
+                      //================QUESTION  7===================//
+
+//additin
+// let num1:number=4;
+// let num2:number=4;
+// console.log(num1+num2);
+//subtraction
+// let num3:number=10;
+// let num4:number=2;
+// console.log(num3-num4);
+//multiplication
+// let num5:number=4;
+// let num6:number=2;
+// console.log(num5*num6);
+//division
+// let num7:number=16;
+// let num8:number=2;
+// console.log(num7/num8);
+   
+                      //================QUESTION  8===================//
+//create 4 lines of operatror out put should be 8
+// console.log(5+3);
+// console.log(4*2);
+// console.log(12-4);
+// console.log(16/2);
+
+                      //================QUESTION  9===================//
+//sve favriot number in a variable
+// let myFavriotNumber:number=1;
+//print favriot number with a message
+// console.log(`My favriot number is ${myFavriotNumber}.`);
+
+
+//**********************************3rd day complete************************************** */
+
+
+//*************************************4TH day*********************************** */
+
+
+                      //================QUESTION  10===================//
+//Naila 21/5/2024
+//this message print a personal messsage .
+// let name:string="Naila";
+// console.log(`well its me ${name} working on my project 100 days of coding.`);
+                    
+                         //================QUESTION  11===================//
+// let myFriends:string[]=["Iqra","Maliha","Kanwal","Ainy","Sidra"];
+
+// for (let i=0; i<5; i++) {
+//     console.log(myFriends[i]);
+//}
+                           //================QUESTION  12===================//
+// let myFriends:string[]=["Iqra","Maliha","Kanwal","Ainy","Sidra"];
+// for(let name of myFriends){
+//     console.log(`salam ${name} how are you.?`);
+    
+// }
+  
+//**********************************4th day complete************************************** */
