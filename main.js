@@ -73,8 +73,74 @@
 //     console.log(myFriends[i]);
 //}
 //================QUESTION  12===================//
-let myFriends = ["Iqra", "Maliha", "Kanwal", "Ainy", "Sidra"];
-for (let name of myFriends) {
-    console.log(`salam ${name} how are you.?`);
-}
+// let myFriends:string[]=["Iqra","Maliha","Kanwal","Ainy","Sidra"];
+// for(let name of myFriends){
+//     console.log(`salam ${name} how are you.?`);
+// }
+//**********************************4th day complete************************************** */
+//**********************************5th day************************************** */
+//=============QUESTION 13========================//
+//creat array
+// let transportation :string[]=["civic car","train","Aero plane"];
+//call element of array one by one 
+// transportation.forEach(transport=>{
+//     console.log(` I would like to own a ${transport}`);
+// });
+//=============QUESTION 14========================//
+// let guestList:string[]=["Naila","Shabana","Farhana"];
+// guestList.forEach(guest=>{
+//     console.log(`salam dear ${guest} would you like to come today at my home.`);
+// });
+//=============QUESTION 15========================//
+//removed guest
+// let guestList:string[]=["Naila","Shabana","Farhana"];
+// let removedGuest="Naila";
+// console.log(`${removedGuest} cant come today.`);
+// let newGuest="Rehana";
+// guestList.splice(0,1,"Rehana");
+//new invitation
+// guestList.forEach(guest=>{
+//     console.log(`Dear ${guest} would you like to join us today.`);
+// })
+//**********************************5th day complete************************************** */
+//**********************************6th day************************************** */
+//=================QUESTION 16===================//
+// let guestList:string[]=["Rehana","Shabana","Farhana"];
+//good news found big table
+// console.log("gud news ! i found a big table for dinner");
+//adding more guest
+// guestList.unshift("Farhana");
+// guestList.splice(1,0,"Bushra");
+//  guestList.push("Farzna");
+//  guestList.forEach(guest=>{
+//     console.log(`Dear ${guest} would you come today.`);
+//  })
+//=================QUESTION 17===================//
+// let guestList:string[]=["Rehana","Shabana","Farhana","Shabana","Bushra","farzana"];
+// console.log("unfortunatluy i can invite only two guest");
+// let invitedGuest=2;
+// for(let i=0; i <guestList.length;i++){
+//     if(i<invitedGuest){
+//         console.log("salam ," + guestList[i] + "you are still invited.");
+//     }
+// }
+//=====part two og  question 17 show empty array===========//
+// let guestList:string[]=["Rehana","Shabana","Farhana","Shabana","Bushra","farzana"];
+// guestList.splice(0,guestList.length);
+// console.log(guestList);
+//================QUEation 18====================//
+let places = ["Saudia Arabia", "Egypt", "Turkey", "Dubai", "America"];
+console.log("original order:", places);
+console.log("Alphabetical orde:", [...places].sort());
+console.log("original orde:", places);
+console.log("Reverse  alphabetical order:", [...places].sort().reverse);
+console.log("original orde:", places);
+places.reverse();
+console.log("Reversed order:", places);
+places.reverse();
+console.log("original orde:", places);
+places.sort();
+console.log("Alphabetical order :", places);
+places.reverse();
+console.log("Reverse alphabetical order:", places);
 export {};
