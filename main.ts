@@ -208,6 +208,245 @@
   
   
   //**********************************6th day complete************************************** */
+  
+  //**************************************7th day ************************************** */
 
+                  /////////////////QUESTION 19//////////////////////
+// //show length of array
+// let myGuest:string[]=["Naila","Shumaila","Shaista","Farzana","Nosheen"];
+// console.log(` I am inviting totla ${myGuest.length} guest at tonaight party`);
+
+            //=================QUEATION 20 =====================//
+  //creat array on your wish 
+  //  let countries:string[]=["Saudi arabia","Turkey","Egypt","America","phalestine"]
   
+  // for( let country of countries){
+    // console.log(`i like to visit ${country} country`);
+    // console.log("Countries I'd like to visit:", country);
+    // };
+    // write a paragraph
+    // console.log("Countries I'd like to visit:", countries);
+            //=================QUEATION 21 =====================//
+  // creat an object of any thing and store its data in it
+
+// let car={
+//   model:2024,
+//   company:"corola",
+//   color:"Black",
+//   is0meter:true,
+// };
+// console.log(`thixs car is model ${car.model} and made by ${car.company} compay in color ${car.color}.`);
+
+//**********************************7th day complete************************************** */
+//*************************************8th day************************************** */
+
+           //=================question 22 =======================//
+
+//intentak error
+// let myfruits:string[]=["Apple","Banana","Mnago"];
+// console.log(myfruits[4]);  //ther is no any 4 index
+
+//correcting error
+//  console.log(myfruits[2]);
+         //=================question 23 =======================//
+
+//conditional test
+
+// let four=4;
+// let five=5;
+
+//first test true 
+// console.log("four is equal to 4");
+// console.log(four==4);
+//second test
+// console.log("five is equal to 5 ");
+// console.log(five ==5);
+//third test true 
+//  console.log("4 is less then 5");
+//  console.log(4 < 5);
+ //4th tes true 
+//  console.log("5 is greater then 4");
+//  console.log(5 > 4);
+ //5th test true 
+
+//  console.log("four is not equal to five");
+//  console.log(four !== five);
+ 
+ //=================question 24 =======================//
+
+ //more conditional test
+//  let apple :string="apple"
+
+ //true test
+//  console.log(apple == "apple");
+//  console.log(apple.toLocaleUpperCase() == "APPLE");
+
+ 
+//  //test false
+//  console.log(apple !== "apple");
+//  console.log(apple.toLocaleUpperCase() !== "APPLE");
+
+ // test with number
+  // console.log("Numerical test");
+  // console.log(5>6);
+  // console.log( 5 == 5);
+   // test  usin "and" and 'or' operator
+
+  //  console.log(" Test with `and` and `or` operator");
+  //  console.log(true && false);
+  //  console.log(true || false);
+  //  console.log(false && false);
+// test checking an item is in array or not
+
+// let names:string[]=["Naila","Hoorain","Shabana"]
+   
+// console.log("is farhana in names");
+// console.log(names.includes("farhana"));
+// console.log("is Naila in names");
+// console.log(names.includes("Naila"));
+// console.log("check weather an item is not in an array");
+// console.log(!names.includes("Farzana"));
+
+
+
+//**********************************8th day complete************************************** *
+
+//************************************** 9th day************************************** *
+     //==========================Queation 25========================//
+//if statement
+// let aleien_color ="green"
+// if(aleien_color=== "green"){
+//   console.log("you just earned 5 points");
   
+// };
+ //==========================Queation 26========================//
+ // if else statement
+//  let aleien_color = "green";
+
+//  if(aleien_color==="green"){
+//   console.log("you just earned 5 points");
+  
+//  }else{
+  // console.log("you just earned  10 points");
+  
+//  };
+ //version two
+//  aleien_color == "red";
+//  if(aleien_color === "red"){
+  // console.log("you just earned 10 points for shooting the alien .");
+  
+//  }else{
+//   console.log("you just win");
+  
+//  };
+ // else ststment run 
+  // aleien_color = "yellow";
+  // if(aleien_color === "green"){
+  //   console.log("you just earned 15 points");
+    
+  // }else{
+  //   console.log('you just earned 30 points');
+    
+  // };
+  
+ //==========================Queation 27========================//
+//now else if 
+// let aleien_color ="green";
+// if(aleien_color === "green"){
+//   console.log("you just earned 5 points");
+  
+// }else if(aleien_color === "yellow"){
+//   console.log("you just earned 10 points.");
+  
+// }else if(aleien_color=== "red"){
+//   console.log("you just earned 15 points.");
+  
+// };
+////////////////////////////////////////////////////////
+//version 2
+// let aleien_color ="yellow";
+// if(aleien_color === "green"){
+//   console.log("you just earned 5 points");
+  
+// }else if(aleien_color === "yellow"){
+//   console.log("you just earned 10 points.");
+  
+// }else if(aleien_color=== "red"){
+//   console.log("you just earned 15 points.");
+// } ;
+////////////////////////////////////////////////////////////////
+//version 3
+   
+  
+// let aleien_color ="red";
+// if(aleien_color === "green"){
+//   console.log("you just earned 5 points");
+  
+// }else if(aleien_color === "yellow"){
+//   console.log("you just earned 10 points.");
+  
+// }else if(aleien_color=== "red"){
+//   console.log("you just earned 15 points.");
+// } ;
+ 
+ 
+//************************************** 9th day completed************************************** *
+ 
+ 
+//************************************** 10th day************************************** *
+
+         //==========================QUESTION 28 ====================================//
+           
+//if else chain
+//stage of life
+// let age =25;
+
+// if(age < 2){
+//   console.log("The person is a toddler");
+  
+// }else if( age < 4){
+//   console.log("you are  a kid ");
+  
+// }else if(age < 20){
+//   console.log("The person is teenager.");
+  
+
+// }else if(age < 65){
+//   console.log("The person is an elder");
+  
+// }else if(age  > 65){
+//   console.log("The person is older");
+  
+// };
+
+
+         //==========================QUESTION 29 ====================================//
+
+//create array and check certain fruit is in array or not
+//  let fruits:string[]=["Apple","Banana","Mango"];
+//  if(fruits.includes("Apple")){
+//   console.log("i really like Apple!");
+  
+//  }else if(fruits.includes("Orange")){
+//   console.log("there is no orange in fruits.");
+  
+//  };
+
+  //==========================QUESTION 30 ====================================//
+
+//special grreting for admin in loop
+// let useres:string[]=["Admin","user1","user2","user3"];
+// for(let user of useres){
+//   if(user === "Admin"){
+//     console.log("Hello Admin ! how are you");
+    
+//   }else{
+//     console.log("welcome in web page");
+    
+//   }
+// };
+//************************************** 10th day completed****************************//
+
+
+
+
