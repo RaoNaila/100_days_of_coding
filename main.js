@@ -316,7 +316,7 @@
 //   }
 // };
 //************************************** 10th day completed****************************//
-//************************************** 11th day completed****************************//
+//************************************** 11th day ****************************//
 //=======================Question 31===========================//
 // - No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
 // If the list is empty, print the message We need to find some users!
@@ -360,7 +360,7 @@
 // Use an if-else chain inside the loop to print the proper ordinal ending for each number.
 // Your output should read "1st 2nd 3rd 4th 5th 6th 7th 8th 9th", 
 //and each result should be on a separate line.
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//  let numbers:number[]=[1,2,3,4,5,6,7,8,9];
 // for(let ordinalnumber of numbers){
 //   if(ordinalnumber === 1){
 //     let number= ordinalnumber+"st"
@@ -377,17 +377,132 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 //   }
 // };
 //through foreach
-numbers.forEach((number) => {
-    let suffix = "th";
-    if (number === 1) {
-        suffix = "st";
+// numbers.forEach((number) => {
+//   let suffix = "th";
+//   if (number === 1) {
+//     suffix = "st";
+//   } else if (number === 2) {
+//     suffix = "nd";
+//   } else if (number === 3) {
+//     suffix = "rd";
+//   }
+//   console.log(`${number}${suffix}`);
+// });
+/************************************** 11th day completed****************************/
+/************************************** 12th day*******************************/ //
+//=================Questio 34==============================//
+// - Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names 
+// in a array, and then use a for loop to print the name of each pizza.
+// Modify your for loop to print a sentence using the name of the pizza instead of 
+// printing just the name of the pizza. For each pizza you should have one line of output
+//  containing a simple statement like I like pepperoni pizza.
+// Add a line at the end of your program, outside the for loop, that states how much you like pizza. The output should consist of three or more lines about the kinds of pizza you like and then an additional sentence, such as
+//  I really love pizza!
+// let favriotPizza:string[]=["tikka piazza","malia pizza","cheezey pizza"];
+// favriotPizza.forEach(pizza=>{
+//   console.log(`i like ${pizza} too much.`);
+// });
+// console.log("i love pizza.");
+//======================Question 35 =========================//
+//  Q35 - Animals: Think of at least three different animals that have a common characteristic. 
+//  Store the names of these animals in a list,and then use a for loop to print out the name of
+// each animal.Modify your program to print a statement about each animal, 
+// such as A dog would make a great pet.
+// Add a line at the end of your program stating what these animals have in common.
+//  You could print a sentence such as Any of these animals would make a great pet
+// let pets :string[]=["goat","cow","camel"];
+// pets.forEach(animal=>{
+//   console.log(`A ${animal} would make a great pet.`);
+// });
+// console.log(`these animals are good pets!.`);
+//==========================Question 36 ===========================//
+// Q36 - T-Shirt: Write a function called make_shirt() that accepts a size and the text of
+//  a message that should be printed on the shirt. The function should print a sentence 
+//  summarizing the size of the shirt and the message printed on it. Call the function.
+//  function make_shirt(size:string,message:string){
+//      console.log(`you order ${size} size shirt  with print message : ${message}`);
+//  };
+//  make_shirt("medium","love type script");
+/************************************** 12th day completed****************************/
+/************************************** 13th day started******************************/
+//==================Question 37 ======================//
+// Q37 - Large Shirts: Modify the make_shirt() function so that shirts are large by default with 
+// a message that reads I love TypeScript. Make a large shirt and a medium shirt with the default 
+// message,and a shirt of any size with a different message.
+// function make_shirt(size:string="large",message:string="i love type script"){
+//   console.log(`Making a ${size} t.shirt with the message print on it :${message}`);
+// };
+// make_shirt();
+// make_shirt("medium");
+// make_shirt("small","i am a web developer");
+//===========================Question 38 =========================//
+//  Q38 - Cities: Write a function called describe_city() that accepts the name of a city 
+//  and its country. The function should print a simple sentence, such as Karachi is in Pakistan
+//   Give the parameter for the country a default value. Call your function for three different cities,
+//   at least one of which is not in the default country.
+// function describe_city(city:string,country:string="Pakistan"){
+//   console.log(`${city} is in ${country}`);
+// };
+// describe_city("karachi");
+// describe_city("Lahore");
+// describe_city("Mecca","ASaudi arabia");
+//   Q39 - City Names: Write a function called city_country() that takes in the name of a city
+//   and its country. The function should return a string formatted like this:"Lahore, Pakistan"
+//  Call your function with at least three city-country pairs, and print the value
+//  that’s returned
+// function city_country(city:string,country:string):string{
+//   return `${city},${country}`
+// };
+// console.log(city_country("Karachi","Pakistan"))
+// console.log(city_country("Tokyo","Japan"));
+// console.log(city_country("Dehli","India"));
+/************************************** 13th day completed****************************/
+/************************************** 14th day started****************************/ //
+//===============================Quesstion 40 ==============================//
+// q40:Album: Write a function called make_album() that builds a Object describing a music album.
+// //  The function should take in an artist name and an album title, and it should return a
+//   Object containing these two pieces of information. Use the function to make three dictionaries
+//   representing different albums. Print each return value to show that Objects are storing the
+//    album information correctly. Add an optional parameter to make_album() that allows you to 
+//    store the number of tracks on an album. If the calling line includes a value for the number 
+//    of tracks, add that value to the album’s Object.
+//  Make at least one new function call that includes the number of tracks on an album.
+// function make_album(album:string,tiltle:string,tracks?:number){
+//   let myAlbum ={
+//           album,
+//           tiltle,
+//           tracks}
+//           return myAlbum;
+// };
+// console.log(make_album("first","rock"));
+// console.log(make_album("second","pop"));
+// console.log(make_album("third","hithot",10));
+//======================Question 41============================//
+// Q41 - Magicians: Make a array of magician’s names. Pass the array to a 
+// function called show_magicians(),which prints the name of each magician in the array.
+//   let magicians:string[]=["Hmoon","BILL batoori","Umro ayyar"];
+// function show_magicians(magicians:string[]){
+//   magicians.forEach((magician)=>{
+//     console.log(magician);
+//   })
+// } ; 
+// show_magicians(magicians) 
+// Q42 - Great Magicians: Start with a copy of your program from Exercise 40.
+// Write a function called make_great() that modifies the array of magicians by adding 
+//the phrase the Great to each magician’s name. 
+// Call show_magicians() to see that the list has actually been modified.
+let magicians = ["Hmoon", "BILL batoori", "Umro ayyar"];
+function show_magicians(magicians) {
+    magicians.forEach((magician) => {
+        console.log(magician);
+    });
+}
+;
+function make_great(magicians) {
+    for (let i = 0; i < magicians.length; i++) {
+        magicians[i] = magicians[i] + " the Great";
     }
-    else if (number === 2) {
-        suffix = "nd";
-    }
-    else if (number === 3) {
-        suffix = "rd";
-    }
-    console.log(`${number}${suffix}`);
-});
+}
+make_great(magicians); // Modifies the original array
+show_magicians(magicians); // Show
 export {};
